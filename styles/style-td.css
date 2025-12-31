@@ -1,0 +1,82 @@
+.td {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    background: none;
+    gap: 2%;
+}
+
+.td > div {
+    border-radius: 20px;
+}
+
+.td-left {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 29%;
+    height: 56%;
+    padding: 2%;
+    background-color: #E6E6E6;
+}
+
+.td-right {
+    width: 69%;
+    height: 56%;
+    background-image: url("../images/gradient.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.td-bottom-left {
+    width: 49%;
+    height: 39%;
+    padding: 2%;
+    background-color: #222222;
+}
+
+.td-bottom-right {
+    width: 49%;
+    height: 39%;
+    padding: 3%;
+    background: none;
+}
+
+.td-left p {
+    text-align: right;
+    color: #222222;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.td-left span {
+    color: #222222;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.td-bottom-left p {
+    color: #E6E6E6;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.td-bottom-left span {
+    color: #E6E6E6;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .td {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .td > div {
+        width: 100%;
+        height: 20%;
+    }
+}

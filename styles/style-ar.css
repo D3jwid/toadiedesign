@@ -1,0 +1,135 @@
+.ar {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    gap: 1.33%;
+}
+
+.ar > a {
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.graphic {
+    width: 32%;
+    height: 31%;
+}
+
+.g1 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g2 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic2.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g3 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic3.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g4 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic4.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g5 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic5.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g6 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic6.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g7 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic7.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.g8 {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 160%), url('../images/graphic8.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.behance {
+    width: 32%;
+    height: 31%;
+    padding: 3%;
+    background-color: #222222;
+}
+
+.behance > p {
+    color: #E6E6E6;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+.behance > span {
+    color: #999999;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.g1:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic1.png');
+}
+
+.g2:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic2.png');
+}
+
+.g3:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic3.png');
+}
+
+.g4:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic4.png');
+}
+
+.g5:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic5.png');
+}
+
+.g6:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic6.png');
+}
+
+.g7:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic7.png');
+}
+
+.g8:hover {
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 200%), url('../images/graphic8.png');
+}
+
+.behance:hover {
+    background-color: #252525;
+}
+
+@media (max-width: 1024px) {
+    .ar {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .graphic {
+        width: 48%;
+        height: 18%;
+    }
+}
